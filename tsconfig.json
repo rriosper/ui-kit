@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+        "typeRoots": [ "./src/types", "./node_modules/@types"],
+        "baseUrl": "./",
+        "paths": {
+            "#components": [
+                "src/components"
+            ],
+            "#constants": [
+                "src/constants"
+            ],
+            "#utils": [
+                "src/utils"
+            ],
+            "#theme": [
+                "src/theme"
+            ],
+        },
+        "declaration": true,
+        "declarationDir": "build",
+        "diagnostics": true,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "jsx": "react",
+        "isolatedModules": true,
+        "lib": [
+            "es5",
+            "dom"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "outDir": "compiled",
+        "sourceMap": true,
+        "target": "es5",
+        "strict": true,
+        "strictPropertyInitialization": true,
+        "strictNullChecks": true
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "storybook-static"
+    ]
+}

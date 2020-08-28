@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createCleanComponent With children 1`] = `
+<DocumentFragment>
+  .c0 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+<div
+    class="c0"
+    data-testid="component"
+    disabled=""
+  >
+    CHILDREN!
+  </div>
+</DocumentFragment>
+`;
+
+exports[`createCleanComponent Without children 1`] = `
+<DocumentFragment>
+  .c0 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+<div
+    class="c0"
+    data-testid="component"
+    disabled=""
+  />
+</DocumentFragment>
+`;
